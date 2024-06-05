@@ -1,5 +1,5 @@
 #VETOR E MATRIZES 
-#quantidade de alunos 
+#quantidade de alunos
 n= int (input())
 i=0
 soma = 0 
