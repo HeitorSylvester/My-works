@@ -1,4 +1,4 @@
-n=int(input()) #6 dias
+n=int(input()) #6 dias , médias de temeperaturas e quais foram as maiores
 i=0     
 list=[] 
 alpha=0
