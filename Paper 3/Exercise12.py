@@ -13,4 +13,4 @@ while stu > i :
         wir = i + 1
         das = nota
     i = i + 1
-print ("o aluno com a maior nota foi o alun " + str (wir)) 
+print ("o aluno com a maior nota foi o aluno " + str (wir)) 

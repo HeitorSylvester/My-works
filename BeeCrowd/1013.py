@@ -1,11 +1,7 @@
-
 a,b,s=input().split()
 a=int(a)
 b=int(b)
 s=int(s)
-vector = []
-i = 0
-alpha = 3
-while 3 > i:
-    vector.append(a,b,s)
-    i+=1
+maiorAB = (a + b+ abs(a-b)) /2
+bigger = (maiorAB + s + abs (maiorAB - s))/2
+print (int (bigger), "eh o maior")
