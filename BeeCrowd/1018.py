@@ -1,22 +1,23 @@
-value = int (input()) #576
-if value > 100:
-    A = value % 100
-print (A)
-if A > 50:
-    B = A % 50
-print (B)
-if B > 20:
-    C = B % 20
-print (C)
-if C > 10:
-    D = C % 10
-print (D)
-if D > 5:
-    E = D % 5
-print (E)
-if E > 2:
-    F = E % 2
-print (F)
-if F > 1:
-    G = E % 1
-print (G)
+value = int (input())
+print (value)
+A = int(value / 100)
+B = value % 100
+print (A, "nota(s) de R$ 100,00")
+A = int (B / 50)
+B %= 50
+print (A, "nota(s) de R$ 50,00")
+A = int (B / 20)
+B %= 20
+print (A, "nota(s) de R$ 20,00")
+A = int (B / 10)
+B %= 10
+print (A, "nota(s) de R$ 10,00")
+A = int (B / 5)
+B %= 5
+print (A, "nota(s) de R$ 5,00")
+A = int (B / 2)
+B %= 2
+print (A, "nota(s) de R$ 2,00")
+A = int (B / 1)
+B %= 1
+print (A, "nota(s) de R$ 1,00")
