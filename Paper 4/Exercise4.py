@@ -7,14 +7,17 @@
 #6, 5, 4, 3, 2, 1
 #2, 1, 1, 1, 1, 2
 
-dice = int (input("Digite a qtd de lançamentos:  "))
-i=0
+n = int(input())
 vector = []
-auxiliary = []
-while dice > i:
-    dice_values = int (input())
-    vector.append(dice_values)
+dice = [6, 5, 4, 3, 2, 1]
+print(dice)
+i = 0
+aux = 0
+while n > i:
+    dice_launch = int(input())
+    vector.append(dice_launch)
+    if vector[i] == dice[i]:
+        aux = dice[i]
+        print (aux)
+    
     i+=1
-    while len vector > i:
-        
-print (vector)
