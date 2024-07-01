@@ -4,6 +4,6 @@ poder editar
 remover
 todos alunos (nome e CPF)
 ***************************
-fazer o menu de cadastro <--------
-cadastar, editar e remover aluno, e listar alunos
+fazer o menu de cadastro DONE
+cadastar, editar e remover aluno, e listar alunos <--------
 (talvez colocar o o usuario ADM)
