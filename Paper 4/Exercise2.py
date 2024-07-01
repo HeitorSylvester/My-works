@@ -6,7 +6,7 @@ beta=0
 vector=[]
 while n > i:
     temps=int(input()) #3,2,1=6
-    vector.append(temps) #VETOR SALVA MMAMAMAMAM
+    vector.append(temps) #VETOR SALVA
     alpha=temps+alpha
     beta+=temps
     i+=1
