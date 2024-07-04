@@ -1,9 +1,4 @@
-Objetivos
-fazer cadastro 
-poder editar 
-remover
-todos alunos (nome e CPF)
-***************************
-fazer o menu de cadastro DONE
-cadastar, editar e remover aluno, e listar alunos <--------
-(talvez colocar o o usuario ADM)
+sequencia de numeros inteiros em uma unica linha
+e escrever os repetidos em uma linha 
+ou seja:
+3 4 5 5 7 8 7 entrada 
