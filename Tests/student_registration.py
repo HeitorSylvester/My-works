@@ -1,8 +1,8 @@
 print ("********* Olá, qual será a ação hoje? *******")
-print ("  CADASTRO      --------- 1") #fazendo o cadastro
-print (" EDITAR ALUNO   --------- 2") 
-print (" REMOVER ALUNO  --------- 3")
-print ("LISTA DE ALUNOS --------- 4")
+print ("  CADASTRO      --------- 1") #cadastro feito
+print (" EDITAR ALUNO   --------- 2") #editar aluno
+print (" REMOVER ALUNO  --------- 3") 
+print ("LISTA DE ALUNOS --------- 4") #lista de alunos fazer
 print ("*******************************************")
 print ("ver. 0.0.1")
 
@@ -32,5 +32,3 @@ while answer == True:# AQUI ESTÃO AS ENTRADAS DO MENU PRINCIPAL
         answer = False
     elif student_lists == 4:
         answer == False
-
-#STILL ONGOING PROJECT 
