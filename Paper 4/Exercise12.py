@@ -1,5 +1,5 @@
 numeros = input ()
-valores = numeros.split("")
+valores = numeros.split()
 i = 0
 while i < len(valores):
     alvo = valores [i]

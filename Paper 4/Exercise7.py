@@ -14,4 +14,4 @@ while times > i: # verificação do menor valor
         aux = vector[i]
         j+=1
     i+=1
-print (aux)
+print ("O menor valor é  " + str (aux))
