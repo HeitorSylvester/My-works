@@ -25,7 +25,6 @@ while answer == True:# AQUI ESTÃO AS ENTRADAS DO MENU PRINCIPAL
         id = int(input ("         DIGITE O CPF DO ALUNO \n"))
         subs = input ("DIGITE A DICIPLINA PARA APLICAÇÃO (PARA MAIS DE UMA DICIPLINA ESCREVA COM ESPAÇOS) \n").split()
         print ("*******************************************")
-        print (subs)
     elif edit_user == 2:
         answer = False
     elif remove_user == 3:

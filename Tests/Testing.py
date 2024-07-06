@@ -1,0 +1,8 @@
+print ("*************** CADASTRO ***************")
+student_name = input ("             DIGITE O NOME COMPLETO  \n").split()
+id = int(input ("         DIGITE O CPF DO ALUNO \n"))
+subs = input ("DIGITE A DICIPLINA PARA APLICAÇÃO (PARA MAIS DE UMA DICIPLINA ESCREVA COM ESPAÇOS) \n")
+print ("*******************************************")
+file = open("StudentRecords.txt", "w")
+file.write(str(student_name))
+file.close()

@@ -1,4 +1,1 @@
-sequencia de numeros inteiros em uma unica linha
-e escrever os repetidos em uma linha 
-ou seja:
-3 4 5 5 7 8 7 entrada 
+    
