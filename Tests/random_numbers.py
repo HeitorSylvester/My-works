@@ -6,6 +6,6 @@ while entrance > i :
     value = random.randint(1001, 3099)
     i+=1
 print ("YOUR BEECROWD EXERCISE OF THE DAY WILL BE..... \n")
-print ("********************")
+print ("*" * 50)
 print ("https://judge.beecrowd.com/pt/problems/view/%0.0f \n"% value)
-print ("********************")
+print ("*" * 50)
