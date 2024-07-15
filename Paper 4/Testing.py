@@ -21,3 +21,4 @@ while i < len(valores):
         print(alvo + " acontece " + str(contador) + " vez(es)")
         processados.append(alvo)
     i += 1
+
